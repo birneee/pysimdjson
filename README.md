@@ -24,3 +24,10 @@ found in its sister project [json_benchmark][].
 
 [simdjson]: https://github.com/lemire/simdjson
 [json_benchmark]: https://github.com/tktech/json_benchmark
+
+## Rebuild
+
+```bash
+BUILD_WITH_CYTHON=1 BUILD_FOR_DEBUG=1 python setup.py develop
+```
+
